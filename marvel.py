@@ -12,7 +12,7 @@ storynum="36864";
 message=ts+priv+pub
 h=hashlib.md5(message.encode())
 url = "http://gateway.marvel.com/v1/public/stories/"+storynum+"?apikey="+pub+"&hash="+h.hexdigest()+"&ts="+ts
-
+#url="http://gateway.marvel.com/v1/public/comics/17618"+"?apikey="+pub+"&hash="+h.hexdigest()+"&ts="+ts
         
 
 try:
